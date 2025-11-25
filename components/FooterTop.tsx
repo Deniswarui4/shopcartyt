@@ -10,14 +10,14 @@ interface ContactItemData {
 const data: ContactItemData[] = [
   {
     title: "Visit Us",
-    subtitle: "New Orlean, USA",
+    subtitle: "Old Nation House, Nairobi",
     icon: (
       <MapPin className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
   },
   {
     title: "Call Us",
-    subtitle: "+12 958 648 597",
+    subtitle: "+254 722 593 572",
     icon: (
       <Phone className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
@@ -31,7 +31,7 @@ const data: ContactItemData[] = [
   },
   {
     title: "Email Us",
-    subtitle: "Shopcart@gmail.com",
+    subtitle: "sales@dukayetu.com",
     icon: (
       <Mail className="h-6 w-6 text-gray-600 group-hover:text-primary transition-colors" />
     ),
